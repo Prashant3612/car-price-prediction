@@ -1,0 +1,37 @@
+body {
+    /* background-color: #245ac6; */
+    background-image: url('https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');  
+    background-size: cover;                    
+    background-repeat: no-repeat;              
+    background-attachment: fixed;              
+}
+
+h1 {
+    color: #49ecec;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+.stwrite write {
+    color: #49ecec;
+}
+
+.stButton button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.stButton button:hover {
+    background-color: #45a049;
+}
+
+.custom-box {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    margin: 20px;
+}
